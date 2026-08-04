@@ -6,7 +6,7 @@ Le modèle analyse un message entrant et prédit automatiquement sa catégorie p
 
 ## Démo
 
-👉 [Tester l'application]()
+👉 [Tester l'application](https://tri-tickets-support-dozau9vqktsdrh5c4nup25.streamlit.app)
 
 ## Sommaire
 
