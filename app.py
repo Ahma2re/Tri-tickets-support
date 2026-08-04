@@ -20,7 +20,8 @@ tokenizer, model = load_model()
 def translate_to_en(text):
     try:
         return GoogleTranslator(source='fr', target='en').translate(text)
-    except:
+    except Exception as e:
+        st.warning(f"Erreur de traduction : {e}")
         return text
 
 response_templates = {
